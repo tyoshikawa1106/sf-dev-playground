@@ -1,0 +1,6 @@
+<apex:page controller="WelcomeUserController" showHeader="true" sidebar="false" title="Welcome User" id="vf-page">
+    <apex:slds />
+    <div class="slds-p-around_small">
+        <apex:outputText value="{!keyword}" />
+    </div>
+</apex:page>
