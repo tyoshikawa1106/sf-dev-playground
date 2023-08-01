@@ -1,0 +1,6 @@
+<apex:page controller="HelloDevOpsCenterController" showHeader="true" sidebar="false" title="Hello DevOps Center" id="vf-page">
+    <apex:slds />
+    <div class="slds-p-around_small">
+        <apex:outputText value="{!keyword}" />
+    </div>
+</apex:page>
