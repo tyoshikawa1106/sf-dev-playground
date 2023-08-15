@@ -8,12 +8,12 @@
 - [Link](#link)
 
 ## Requirements
-- @salesforce/cli/2.1.7 darwin-arm64 node-v20.5.0 ~
+- Visual Studio Code 1.81.1 (Universal)
+- @salesforce/cli/2.3.8 darwin-arm64 node-v20.5.1
 - git version 2.41.0
-- node v20.5.0 ~
-- npm 9.8.1 ~
-- Visual Studio Code 1.80.2 ~
-- Homebrew
+- node v20.5.1
+- npm 9.8.1
+- Homebrew 4.1.4
 
 ## Usage
 ### Setup
@@ -24,6 +24,91 @@
 % cd cd sfdc-my-playground/
 % code .
 ```
+
+### Version
+```
+% sf -v
+% brew -v
+% git -v
+% node -v
+% npm -v
+```
+
+### Salesforce CLI
+CLIのアップデート
+```
+% npm update --global @salesforce/cli
+```
+
+CLIのヘルプ
+```
+% sf help
+% sf <command> -h
+```
+
+CLIの診断
+```
+% sf doctor
+```
+
+Salesforce組織の認証 (CLIログイン)
+```
+% sf org login web -a <ALIAS> -b chrome
+```
+
+Salesforce組織の認証解除 (CLIログアウト)
+```
+% sf org logout
+or
+% sf org logout -o <AILAS>
+```
+
+認証組織の一覧表示
+```
+% sf org list
+```
+
+Salesforce組織をブラウザで表示
+```
+% sf org open -o <ALIAS> -b chrome
+```
+
+スクラッチ組織の作成
+```
+% sf org create scratch -v <DEVHUB ORG AILAS> -f config/project-scratch-def.json -d -y 7 -a <SCRATCH ORG AILAS>
+```
+
+スクラッチ組織の作成再開 (組織シェイプタイムアウトなどのエラー発生時の普及)
+```
+% sf org resume scratch --job-id <JOB ID>
+or
+% sf org resume sandbox --use-most-recent
+```
+
+### Homebrew
+Homebrewの診断
+```
+% brew doctor
+```
+
+Homebrewのヘルプ
+```
+% brew help
+```
+
+インストールツールのアップデート
+```
+% brew updgrade
+```
+
+### npm
+npmのアップデート
+```
+% npm update
+```
+
+### Salesforce APIバージョンの設定
+sfdx-project.jsonファイルのsourceApiVersionで設定。
 
 ## Link
 - [Salesforce開発環境構築 (2023年版)](https://speakerdeck.com/tyoshikawa1106/salesforcekai-fa-huan-jing-gou-zhu-2023nian-ban)
