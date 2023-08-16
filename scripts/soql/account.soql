@@ -1,1 +1,1 @@
-SELECT Name,(SELECT LastName,FirstName FROM Contacts) FROM Account
+SELECT Name,Phone,BillingCountry,BillingState FROM Account
