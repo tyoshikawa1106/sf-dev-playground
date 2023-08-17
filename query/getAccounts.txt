@@ -1,0 +1,1 @@
+SELECT Name,Phone,Fax,AccountSource,Site,BillingCountry,BillingPostalCode,BillingState,BillingCity FROM Account ORDER BY Name ASC LIMIT 10
