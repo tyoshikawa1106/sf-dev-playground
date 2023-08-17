@@ -1,0 +1,13 @@
+[
+    {
+        "sobject": "Account",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": ["accounts-data.json"]
+    },
+    {
+        "sobject": "Contact",
+        "resolveRefs": true,
+        "files": ["contacts-data.json"]
+    }
+]

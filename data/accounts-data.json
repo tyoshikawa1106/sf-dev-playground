@@ -1,0 +1,154 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "株式会社ヨシカワシステム - 東京オフィス",
+            "Phone": "0X-XXXX-XXXX",
+            "Fax": "0X-XXXX-XXXX",
+            "AccountSource": null,
+            "Site": null,
+            "BillingCountry": "JP",
+            "BillingPostalCode": "XXX-XXXX",
+            "BillingState": "東京都",
+            "BillingCity": "XXX XXX XXXX"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "株式会社ヨシカワシステム - 神奈川オフィス",
+            "Phone": "0X-XXXX-XXXX",
+            "Fax": "0X-XXXX-XXXX",
+            "AccountSource": null,
+            "Site": null,
+            "BillingCountry": "JP",
+            "BillingPostalCode": "XXX-XXXX",
+            "BillingState": "神奈川県",
+            "BillingCity": "XXX XXX XXXX"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Name": "株式会社ヨシカワシステム - 静岡オフィス",
+            "Phone": "0X-XXXX-XXXX",
+            "Fax": "0X-XXXX-XXXX",
+            "AccountSource": null,
+            "Site": null,
+            "BillingCountry": "JP",
+            "BillingPostalCode": "XXX-XXXX",
+            "BillingState": "静岡県",
+            "BillingCity": "XXX XXX XXXX"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef4"
+            },
+            "Name": "株式会社ヨシカワシステム - 京都オフィス",
+            "Phone": "0X-XXXX-XXXX",
+            "Fax": "0X-XXXX-XXXX",
+            "AccountSource": null,
+            "Site": null,
+            "BillingCountry": "JP",
+            "BillingPostalCode": "XXX-XXXX",
+            "BillingState": "京都府",
+            "BillingCity": "XXX XXX XXXX"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef5"
+            },
+            "Name": "株式会社ヨシカワシステム - 長野オフィス",
+            "Phone": "0X-XXXX-XXXX",
+            "Fax": "0X-XXXX-XXXX",
+            "AccountSource": null,
+            "Site": null,
+            "BillingCountry": "JP",
+            "BillingPostalCode": "XXX-XXXX",
+            "BillingState": "長野県",
+            "BillingCity": "XXX XXX XXXX"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef6"
+            },
+            "Name": "株式会社ヨシカワシステム - 広島オフィス",
+            "Phone": "0X-XXXX-XXXX",
+            "Fax": "0X-XXXX-XXXX",
+            "AccountSource": null,
+            "Site": null,
+            "BillingCountry": "JP",
+            "BillingPostalCode": "XXX-XXXX",
+            "BillingState": "広島県",
+            "BillingCity": "XXX XXX XXXX"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef7"
+            },
+            "Name": "株式会社ヨシカワシステム - 福岡オフィス",
+            "Phone": "0X-XXXX-XXXX",
+            "Fax": "0X-XXXX-XXXX",
+            "AccountSource": null,
+            "Site": null,
+            "BillingCountry": "JP",
+            "BillingPostalCode": "XXX-XXXX",
+            "BillingState": "福岡県",
+            "BillingCity": "XXX XXX XXXX"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef8"
+            },
+            "Name": "株式会社ヨシカワシステム - 名古屋オフィス",
+            "Phone": "0X-XXXX-XXXX",
+            "Fax": "0X-XXXX-XXXX",
+            "AccountSource": null,
+            "Site": null,
+            "BillingCountry": "JP",
+            "BillingPostalCode": "XXX-XXXX",
+            "BillingState": "愛知県",
+            "BillingCity": "XXX XXX XXXX"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef9"
+            },
+            "Name": "株式会社ヨシカワシステム - 岡山オフィス",
+            "Phone": "0X-XXXX-XXXX",
+            "Fax": "0X-XXXX-XXXX",
+            "AccountSource": null,
+            "Site": null,
+            "BillingCountry": "JP",
+            "BillingPostalCode": "XXX-XXXX",
+            "BillingState": "岡山県",
+            "BillingCity": "XXX XXX XXXX"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef10"
+            },
+            "Name": "株式会社ヨシカワシステム - 島根オフィス",
+            "Phone": "0X-XXXX-XXXX",
+            "Fax": "0X-XXXX-XXXX",
+            "AccountSource": null,
+            "Site": null,
+            "BillingCountry": "JP",
+            "BillingPostalCode": "XXX-XXXX",
+            "BillingState": "島根県",
+            "BillingCity": "XXX XXX XXXX"
+        }
+    ]
+}
