@@ -1,6 +1,6 @@
 # Salesforce DX Project
 
-開発勉強用リポジトリ。
+SalesforceDXの開発勉強用リポジトリ。
 
 ## Table of Contents
 - [Requirements](#requirements)
@@ -9,17 +9,17 @@
 
 ## Requirements
 - Visual Studio Code 1.81.1 (Universal)
-- @salesforce/cli/2.3.8 darwin-arm64 node-v20.5.1
+- @salesforce/cli/2.4.10 darwin-arm64 node-v20.5.1
+- Homebrew 4.1.5
 - git version 2.41.0
 - node v20.5.1
 - npm 9.8.1
-- Homebrew 4.1.4
 
 ## Usage
 ### Setup
 ```
 % pwd
-/Users/<yourdirectory>/Project/salesforce/workspace
+/Users/<yourdirectory>/projects/salesforce/workspace
 % git clone git@github.com:tyoshikawa1106/sfdc-my-playground.git
 % cd cd sfdc-my-playground/
 % code .
