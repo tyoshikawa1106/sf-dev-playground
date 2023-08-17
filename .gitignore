@@ -49,3 +49,6 @@ $RECYCLE.BIN/
 
 # manifest
 destructiveChanges.xml
+
+# data export
+**/export-out/
