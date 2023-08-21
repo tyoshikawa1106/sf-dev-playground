@@ -1,29 +1,59 @@
 <template>
     <div>
-        <p>Hello {name}!</p>
-        <div class="slds-p-around_xx-small">
-            <input data-id="inputName" value={name} onkeyup={onNameChanged} />
+        <!-- Input Fields Sample-->
+        <div class="slds-section slds-is-open">
+            <h3 class="slds-section__title">
+                <button aria-controls="expando-unique-id" aria-expanded="true" class="slds-button slds-section__title-action">
+                    <span class="slds-truncate" title="Section Title">Input Fields</span>
+                </button>
+            </h3>
+            <div aria-hidden="false" class="slds-section__content">
+                <p>Hello {name}!</p>
+                <div class="slds-p-around_xx-small">
+                    <input data-id="inputName" value={name} onkeyup={onNameChanged} />
+                </div>
+            </div>
         </div>
-        <div class="slds-p-around_xx-small">
-            <input data-id="inputCheckbox" type="checkbox" onchange={onCheckboxChanged} />
-            <template if:true={isChecked}>表示</template>
-            <template if:false={isChecked}>非表示</template>
+        <!-- Checkbox Fields Sample-->
+        <div class="slds-section slds-is-open">
+            <h3 class="slds-section__title">
+                <button aria-controls="expando-unique-id" aria-expanded="true" class="slds-button slds-section__title-action">
+                    <span class="slds-truncate" title="Section Title">Checkbox Fields</span>
+                </button>
+            </h3>
+            <div aria-hidden="false" class="slds-section__content">
+                <input data-id="inputCheckbox" type="checkbox" onchange={onCheckboxChanged} />
+                <template if:true={isChecked}> : ON</template>
+                <template if:false={isChecked}> : OFF</template>
+            </div>
         </div>
-        <div class="slds-p-around_xx-small">
-            <!-- loop pattern 1 -->
-            <!--
-            <ul>
-                <template for:each={members} for:item="member" for:index="index">
-                    <li key={member.id}>{index}. {member.name}</li>
-                </template>
-            </ul>
-            -->
-            <!-- loop pattern 2 -->
-            <ul>
-                <template iterator:it={members}>
-                    <li key={it.value.id}>{it.index}. {it.value.name}: {it.first} : {it.last}</li>
-                </template>
-            </ul>
+        <!-- List View Sample-->
+        <div class="slds-section slds-is-open">
+            <h3 class="slds-section__title">
+                <button aria-controls="expando-unique-id" aria-expanded="true" class="slds-button slds-section__title-action">
+                    <span class="slds-truncate" title="Section Title">List View</span>
+                </button>
+            </h3>
+            <div aria-hidden="false" class="slds-section__content">
+                <div class="slds-grid slds-gutters">
+                    <div class="slds-col">
+                        <span><b>Pattern 1</b></span>
+                        <ul>
+                            <template for:each={members} for:item="member" for:index="index">
+                                <li key={member.id}>{index}. {member.name}</li>
+                            </template>
+                        </ul>
+                    </div>
+                    <div class="slds-col">
+                        <span><b>Pattern 2</b></span>
+                        <ul>
+                            <template iterator:it={members}>
+                                <li key={it.value.id}>{it.index}. {it.value.name}: {it.first} : {it.last}</li>
+                            </template>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
