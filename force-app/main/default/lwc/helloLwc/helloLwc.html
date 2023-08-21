@@ -1,0 +1,29 @@
+<template>
+    <div>
+        <p>Hello {name}!</p>
+        <div class="slds-p-around_xx-small">
+            <input data-id="inputName" value={name} onkeyup={onNameChanged} />
+        </div>
+        <div class="slds-p-around_xx-small">
+            <input data-id="inputCheckbox" type="checkbox" onchange={onCheckboxChanged} />
+            <template if:true={isChecked}>表示</template>
+            <template if:false={isChecked}>非表示</template>
+        </div>
+        <div class="slds-p-around_xx-small">
+            <!-- loop pattern 1 -->
+            <!--
+            <ul>
+                <template for:each={members} for:item="member" for:index="index">
+                    <li key={member.id}>{index}. {member.name}</li>
+                </template>
+            </ul>
+            -->
+            <!-- loop pattern 2 -->
+            <ul>
+                <template iterator:it={members}>
+                    <li key={it.value.id}>{it.index}. {it.value.name}: {it.first} : {it.last}</li>
+                </template>
+            </ul>
+        </div>
+    </div>
+</template>
