@@ -24,5 +24,13 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
+    <types>
+        <members>LwcGallery</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>LwcGalleryFlexiPage</members>
+        <name>FlexiPage</name>
+    </types>
     <version>58.0</version>
 </Package>
