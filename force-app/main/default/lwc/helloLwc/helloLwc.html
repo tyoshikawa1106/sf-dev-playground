@@ -4,13 +4,20 @@
         <div class="slds-section slds-is-open">
             <h3 class="slds-section__title">
                 <button aria-controls="expando-unique-id" aria-expanded="true" class="slds-button slds-section__title-action">
-                    <span class="slds-truncate" title="Section Title">Input Fields</span>
+                    <span class="slds-truncate" title="Input Fields">Input Fields</span>
                 </button>
             </h3>
             <div aria-hidden="false" class="slds-section__content">
-                <p>Hello {name}!</p>
-                <div class="slds-p-around_xx-small">
-                    <input data-id="inputName" value={name} onkeyup={onNameChanged} />
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="inputName">
+                        テキスト
+                    </label>
+                    <div class="slds-form-element__control">
+                        <input type="text" data-id="inputName" value={name} onkeyup={onNameChanged} placeholder="Placeholder text…" required="" class="slds-input" />
+                    </div>
+                </div>
+                <div class="slds-box slds-m-top_small">
+                    <p>Hello {name}!</p>
                 </div>
             </div>
         </div>
@@ -18,7 +25,7 @@
         <div class="slds-section slds-is-open">
             <h3 class="slds-section__title">
                 <button aria-controls="expando-unique-id" aria-expanded="true" class="slds-button slds-section__title-action">
-                    <span class="slds-truncate" title="Section Title">Checkbox Fields</span>
+                    <span class="slds-truncate" title="Checkbox Fields">Checkbox Fields</span>
                 </button>
             </h3>
             <div aria-hidden="false" class="slds-section__content">

@@ -1,7 +1,7 @@
 import { LightningElement,track } from 'lwc';
 
 export default class HelloLwc extends LightningElement {
-    @track name = 'Lightning';
+    @track name = '';
     @track isChecked = false;
     @track members = [
         {
