@@ -37,7 +37,7 @@
             <div aria-hidden="false" class="slds-section__content">
                 <div class="slds-grid slds-gutters">
                     <div class="slds-col">
-                        <span><b>Pattern 1</b></span>
+                        <span><b>Pattern 1 (for:each)</b></span>
                         <ul>
                             <template for:each={members} for:item="member" for:index="index">
                                 <li key={member.id}>{index}. {member.name}</li>
@@ -45,7 +45,7 @@
                         </ul>
                     </div>
                     <div class="slds-col">
-                        <span><b>Pattern 2</b></span>
+                        <span><b>Pattern 2 (iterator)</b></span>
                         <ul>
                             <template iterator:it={members}>
                                 <li key={it.value.id}>{it.index}. {it.value.name}: {it.first} : {it.last}</li>
