@@ -17,65 +17,67 @@ SalesforceDXの開発勉強用リポジトリ。
 
 ## Usage
 ### Setup
+プロジェクトソースコードをダウンロードしてVSCodeで開く。
 ```
-% pwd
-/Users/<yourdirectory>/projects/salesforce/workspace
-% git clone git@github.com:tyoshikawa1106/sfdc-my-playground.git
-% cd cd sfdc-my-playground/
-% code .
+git clone git@github.com:tyoshikawa1106/sfdc-my-playground.git
+cd sfdc-my-playground
+code .
 ```
 
 ### Version
 ```
-% sf -v
-% brew -v
-% git -v
-% node -v
-% npm -v
+sf -v
+brew -v
+git -v
+node -v
+npm -v
 ```
 
 ### Salesforce CLI
 CLIのアップデート
 ```
-% npm update --global @salesforce/cli
+npm update --global @salesforce/cli
 ```
 
 CLIのヘルプ
 ```
-% sf help
-% sf <command> -h
+sf help
+sf <command> -h
 ```
 
 CLIの診断
 ```
-% sf doctor
+sf doctor
 ```
 
 Salesforce組織の認証 (CLIログイン)
 ```
-% sf org login web -a <ALIAS> -b chrome
+sf org login web -a DevHub -b chrome
 ```
 
 Salesforce組織の認証解除 (CLIログアウト)
 ```
-% sf org logout
-or
-% sf org logout -o <AILAS>
+sf org logout
 ```
 
 認証組織の一覧表示
 ```
-% sf org list
+sf org list
 ```
 
 Salesforce組織をブラウザで表示
 ```
-% sf org open -o <ALIAS> -b chrome
+sf org open -o DevHub -b chrome
 ```
 
 スクラッチ組織の作成
 ```
-% sf org create scratch -v <DEVHUB ORG AILAS> -f config/project-scratch-def.json -d -y 7 -a <SCRATCH ORG AILAS>
+sf org create scratch -v DevHub -f config/project-scratch-def.json -d -y 7 -a ScratchOrg
+```
+
+スクラッチ組織にソースをデプロイ
+```
+sf project deploy start -o ScratchOrg
 ```
 
 スクラッチ組織のシステム管理者ユーザに権限セットを割り当て
@@ -83,43 +85,41 @@ Salesforce組織をブラウザで表示
 sf org assign permset -n Trailblazers
 ```
 
-スクラッチ組織のシステム管理者ユーザのパスワードを生成
-```
-sf org generate password -l 12 -o <SCRATCH ORG AILAS>
-```
-
 スクラッチ組織にテストデータをインポート
 ```
 sf data import tree -p data/accounts-data-plan.json
 ```
 
-スクラッチ組織の作成再開 (組織シェイプタイムアウトなどのエラー発生時の復旧方法)
+スクラッチ組織のシステム管理者ユーザのパスワードを生成
 ```
-% sf org resume scratch --job-id <JOB ID>
-or
-% sf org resume sandbox --use-most-recent
+sf org generate password -l 12 -o <SCRATCH ORG AILAS>
+```
+
+スクラッチ組織の作成処理を再開 (組織シェイプタイムアウトなどのエラー発生時の復旧方法)
+```
+sf org resume scratch --job-id <JOB ID>
 ```
 
 ### Homebrew
 Homebrewの診断
 ```
-% brew doctor
+brew doctor
 ```
 
 Homebrewのヘルプ
 ```
-% brew help
+brew help
 ```
 
 インストールツールのアップデート
 ```
-% brew updgrade
+brew updgrade
 ```
 
 ### npm
 npmのアップデート
 ```
-% npm update
+npm update
 ```
 
 ### Salesforce APIバージョンの設定
