@@ -17,47 +17,22 @@ SalesforceDXの開発勉強用リポジトリ。
 
 ## Usage
 ### Setup
-プロジェクトソースコードをダウンロードしてVSCodeで開く。
+GitHubからプロジェクトをダウンロードしてVSCodeで開く。
 ```
+mkdir projects
+cd projects
+mkdir salesforce
+cd salesforce
+mkdir workspace
+cd workspace
 git clone git@github.com:tyoshikawa1106/sfdc-my-playground.git
 cd sfdc-my-playground
 code .
 ```
 
-### Version
-```
-sf -v
-brew -v
-git -v
-node -v
-npm -v
-```
-
-### Salesforce CLI
-CLIのアップデート
-```
-npm update --global @salesforce/cli
-```
-
-CLIのヘルプ
-```
-sf help
-sf <command> -h
-```
-
-CLIの診断
-```
-sf doctor
-```
-
 Salesforce組織の認証 (CLIログイン)
 ```
 sf org login web -a DevHub -b chrome
-```
-
-Salesforce組織の認証解除 (CLIログアウト)
-```
-sf org logout
 ```
 
 認証組織の一覧表示
@@ -95,12 +70,48 @@ sf data import tree -p data/accounts-data-plan.json
 sf org generate password -l 12 -o ScratchOrg
 ```
 
+スクラッチ組織をChromeブラウザで開く
+```
+sf org open -o ScratchOrg -b chrome
+```
+
+### Version Commonds Memo
+```
+sf -v
+brew -v
+git -v
+node -v
+npm -v
+```
+
+### Salesforce CLI Commands Memo
+CLIのアップデート
+```
+npm update --global @salesforce/cli
+```
+
+CLIのヘルプ
+```
+sf help
+sf <command> -h
+```
+
+CLIの診断
+```
+sf doctor
+```
+
+Salesforce組織の認証解除 (CLIログアウト)
+```
+sf org logout
+```
+
 スクラッチ組織の作成処理を再開 (組織シェイプタイムアウトなどのエラー発生時の復旧方法)
 ```
 sf org resume scratch --job-id <JOB ID>
 ```
 
-### Homebrew
+### Homebrew Commands Memo
 Homebrewの診断
 ```
 brew doctor
@@ -116,7 +127,7 @@ brew help
 brew updgrade
 ```
 
-### npm
+### npm Commands Memo
 npmのアップデート
 ```
 npm update
@@ -135,3 +146,4 @@ sfdx-project.jsonファイルのsourceApiVersionで設定。
 - [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
 - [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+- [Metadata API Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.244.0.api_meta.meta/api_meta/meta_types_list.htm)
