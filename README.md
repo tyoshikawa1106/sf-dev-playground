@@ -30,7 +30,7 @@ cd sfdc-my-playground
 code .
 ```
 
-Salesforce組織の認証 (CLIログイン)
+DevHub組織の認証 (CLIログイン)
 ```
 sf org login web -a DevHub -b chrome
 ```
@@ -40,7 +40,7 @@ sf org login web -a DevHub -b chrome
 sf org list
 ```
 
-Salesforce組織をブラウザで表示
+DevHub組織をChromeブラウザで開く
 ```
 sf org open -o DevHub -b chrome
 ```
