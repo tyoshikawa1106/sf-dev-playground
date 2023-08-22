@@ -25,13 +25,19 @@
         <name>StaticResource</name>
     </types>
     <types>
+        <members>TrailblazersApps</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>LwcGallery</members>
         <members>Bike_Card</members>
+        <members>Your_Bike_Selection</members>
         <name>CustomTab</name>
     </types>
     <types>
         <members>LwcGalleryFlexiPage</members>
         <members>Bike_Card</members>
+        <members>Your_Bike_Selection</members>
         <name>FlexiPage</name>
     </types>
     <version>58.0</version>
