@@ -1,7 +1,7 @@
 <template>
-    <template if:true={product}>
+    <template lwc:if={product}>
         <div class="container">
-            <div>{product.fields.Name.value}</div>
+            <div class="slds-text-heading_small">{product.fields.Name.value}</div>
             <div class="price">{product.fields.MSRP__c.displayValue}</div>
             <div class="description">{product.fields.Description__c.value}</div>
             <img class="product-img" src={product.fields.Picture_URL__c.value}></img>
@@ -14,7 +14,7 @@
             </p>
         </div>
     </template>
-    <template if:false={product}>
-        <div>Select a bike</div>
+    <template lwc:else>
+        <div class="slds-text-heading_medium">Select a bike</div>
     </template>
 </template>
