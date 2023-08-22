@@ -17,11 +17,10 @@ SalesforceDXの開発勉強用リポジトリ。
 
 ## Usage
 ### Setup
-プロジェクトディレクトリに移動
+プロジェクトディレクトリ
 ```
 /Users/<your directory>/projects/salesforce/workspace/
 ```
-
 
 GitHubからプロジェクトをダウンロードしてVSCodeで開く。
 ```
@@ -130,7 +129,7 @@ brew upgrade
 ### npm Commands Memo
 npmのアップデート
 ```
-npm update
+npm update --global
 ```
 
 ### Salesforce APIバージョンの設定
