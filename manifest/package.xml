@@ -38,6 +38,7 @@
         <members>LwcGalleryFlexiPage</members>
         <members>Bike_Card</members>
         <members>Your_Bike_Selection</members>
+        <members>Trailblazers_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
     <version>58.0</version>
