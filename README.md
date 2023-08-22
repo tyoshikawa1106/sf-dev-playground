@@ -10,8 +10,8 @@ SalesforceDXの開発勉強用リポジトリ。
 ## Requirements
 - Visual Studio Code 1.81.1 (Universal)
 - @salesforce/cli/2.4.10 darwin-arm64 node-v20.5.1
-- Homebrew 4.1.5
-- git version 2.41.0
+- Homebrew 4.1.6
+- git version 2.42.0
 - node v20.5.1
 - npm 9.8.1
 
@@ -124,7 +124,7 @@ brew help
 
 インストールツールのアップデート
 ```
-brew updgrade
+brew upgrade
 ```
 
 ### npm Commands Memo
