@@ -26,10 +26,12 @@
     </types>
     <types>
         <members>LwcGallery</members>
+        <members>Bike_Card</members>
         <name>CustomTab</name>
     </types>
     <types>
         <members>LwcGalleryFlexiPage</members>
+        <members>Bike_Card</members>
         <name>FlexiPage</name>
     </types>
     <version>58.0</version>

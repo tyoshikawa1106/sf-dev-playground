@@ -7,7 +7,57 @@
                 <identifier>c_helloLwc</identifier>
             </componentInstance>
         </itemInstances>
-        <name>Facet-85943b03-47e2-4253-9adc-63b7722f41bb</name>
+        <name>Facet-64b963b3-3c42-4c1c-b3a1-f38895169c44</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>active</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-64b963b3-3c42-4c1c-b3a1-f38895169c44</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>1</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>flexipage_tab</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-496a6d7e-387f-4e73-887f-9f6fc0f88594</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>tabs</name>
+                    <value>Facet-496a6d7e-387f-4e73-887f-9f6fc0f88594</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tabset</componentName>
+                <identifier>flexipage_tabset</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>region1</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>helloWorld</componentName>
+                <identifier>c_helloWorld</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-b7c63a11-d43c-452a-bf4f-d63d924d269e</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>Facet-a9b8e087-bf6a-4a0c-a3c5-eb943cbe587d</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -15,11 +65,11 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
-                    <value>Facet-85943b03-47e2-4253-9adc-63b7722f41bb</value>
+                    <value>Facet-b7c63a11-d43c-452a-bf4f-d63d924d269e</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>label</name>
-                    <value>helloLWC</value>
+                    <value>helloWorld</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>name</name>
@@ -29,7 +79,25 @@
                 <identifier>flexipage_accordionSection</identifier>
             </componentInstance>
         </itemInstances>
-        <name>Facet-8433f119-f1cd-4c0b-bd31-4bea14a96332</name>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-a9b8e087-bf6a-4a0c-a3c5-eb943cbe587d</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>label</name>
+                    <value>myFirstWebComponent</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>name</name>
+                    <value>accordionSection--hdtgyzjao8</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:accordionSection</componentName>
+                <identifier>flexipage_accordionSection2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-8c355e3d-9d57-4f83-8a8b-fb565f1542ec</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -37,7 +105,7 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>accordionSections</name>
-                    <value>Facet-8433f119-f1cd-4c0b-bd31-4bea14a96332</value>
+                    <value>Facet-8c355e3d-9d57-4f83-8a8b-fb565f1542ec</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>defaultSectionName</name>
@@ -47,12 +115,100 @@
                 <identifier>flexipage_accordion</identifier>
             </componentInstance>
         </itemInstances>
-        <name>main</name>
+        <itemInstances>
+            <componentInstance>
+                <componentName>myFirstWebComponent</componentName>
+                <identifier>c_myFirstWebComponent</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-0a2305cc-0f0d-4205-9379-e4c93b4cde9b</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>active</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-0a2305cc-0f0d-4205-9379-e4c93b4cde9b</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>2</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>flexipage_tab2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-d6c3633c-1dea-4636-bf5d-8cb8efc39cb8</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>tabs</name>
+                    <value>Facet-d6c3633c-1dea-4636-bf5d-8cb8efc39cb8</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tabset</componentName>
+                <identifier>flexipage_tabset2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>region2</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>app</componentName>
+                <identifier>c_app</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-39b31957-19f5-4027-923b-bd6509eba672</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>active</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-39b31957-19f5-4027-923b-bd6509eba672</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>3</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>flexipage_tab3</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-7040e6ea-2d94-4cbb-88ae-b45c7a7f144b</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>tabs</name>
+                    <value>Facet-7040e6ea-2d94-4cbb-88ae-b45c7a7f144b</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tabset</componentName>
+                <identifier>flexipage_tabset3</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>LWC Gallery</masterLabel>
     <template>
-        <name>flexipage:defaultAppHomeTemplate</name>
+        <name>flexipage:appHomeTemplateThreeColumns</name>
     </template>
     <type>AppPage</type>
 </FlexiPage>
