@@ -1,58 +1,277 @@
 <template>
     <div>
-        <!-- Input Fields Sample-->
-        <div class="slds-section slds-is-open">
-            <h3 class="slds-section__title">
-                <button aria-controls="expando-unique-id" aria-expanded="true" class="slds-button slds-section__title-action">
-                    <span class="slds-truncate" title="Input Fields">Input Fields</span>
-                </button>
-            </h3>
-            <div aria-hidden="false" class="slds-section__content">
-                <div class="slds-form-element">
-                    <label class="slds-form-element__label" for="inputName">
-                        テキスト
-                    </label>
-                    <div class="slds-form-element__control">
-                        <input type="text" data-id="inputName" value={name} onkeyup={onNameChanged} placeholder="Placeholder text…" required="" class="slds-input" />
+        <lightning-accordion active-section-name="TextSection">
+            <lightning-accordion-section name="TextSection" label="Text Section">
+                <!-- TEXT -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="text" label="テキスト" data-id="inputName" onkeyup={onNameChanged}></lightning-input>
+                    </div>
+                    <div class="slds-box slds-theme_default">
+                        <p class="slds-text-title">Hello {name}!</p>
                     </div>
                 </div>
-                <div class="slds-box slds-m-top_small">
-                    <p>Hello {name}!</p>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="CheckboxSection" label="Checkbox Section">
+                <!-- Checkbox -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="checkbox" label="チェックボックス" onchange={onCheckboxChanged} data-id="inputCheckbox" checked={isChecked}></lightning-input>
+                    </div>
+                    <template if:true={isChecked}>
+                        <div class="slds-box slds-theme_default">Checkbox ON!</div>
+                    </template>
+                    <template if:false={isChecked}>
+                        <div class="slds-box slds-theme_default">Checkbox OFF</div>
+                    </template>
                 </div>
-            </div>
-        </div>
-        <!-- Checkbox Fields Sample-->
-        <div class="slds-section slds-is-open">
-            <h3 class="slds-section__title">
-                <button aria-controls="expando-unique-id" aria-expanded="true" class="slds-button slds-section__title-action">
-                    <span class="slds-truncate" title="Checkbox Fields">Checkbox Fields</span>
-                </button>
-            </h3>
-            <div aria-hidden="false" class="slds-section__content">
-                <input data-id="inputCheckbox" type="checkbox" onchange={onCheckboxChanged} />
-                <template if:true={isChecked}> : ON</template>
-                <template if:false={isChecked}> : OFF</template>
-            </div>
-        </div>
-        <!-- List View Sample-->
-        <div class="slds-section slds-is-open">
-            <h3 class="slds-section__title">
-                <button aria-controls="expando-unique-id" aria-expanded="true" class="slds-button slds-section__title-action">
-                    <span class="slds-truncate" title="Section Title">List View</span>
-                </button>
-            </h3>
-            <div aria-hidden="false" class="slds-section__content">
-                <div class="slds-grid slds-gutters">
-                    <div class="slds-col">
-                        <span><b>Pattern 1 (for:each)</b></span>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="CheckboxButtonSection" label="CheckboxButton Section">
+                <!-- CheckboxButton -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="checkbox-button" label="チェックボックスボタン" onchange={onCheckboxButtonChanged} data-id="inutCheckboxButton" checked={isCheckboxButtonChecked}></lightning-input>
+                    </div>
+                    <template if:true={isCheckboxButtonChecked}>
+                        <div class="slds-box slds-theme_default">Checkbox Button ON!</div>
+                    </template>
+                    <template if:false={isCheckboxButtonChecked}>
+                        <div class="slds-box slds-theme_default">Checkbox Button OFF</div>
+                    </template>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="ColorSection" label="Color Section">
+                <!-- Color -->
+                <div class="slds-m-bottom_medium">
+                    <lightning-input type="color" label="Color" value="#EEEEEE"></lightning-input>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="DateSection" label="Date Section">
+                <!-- Date -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="date" label="日付" onchange={onDateChanged} data-id="inputDate" value={birthday}></lightning-input>
+                    </div>
+                    <div class="slds-box slds-theme_default">
+                        <p class="slds-text-title">Your Birthday = {birthday}</p>
+                        <p><lightning-formatted-date-time value={birthday}></lightning-formatted-date-time></p>
+                        <p><lightning-formatted-date-time value={birthday} year="2-digit" month="short" day="2-digit" weekday="narrow"></lightning-formatted-date-time></p>
+                        <p><lightning-formatted-date-time value={birthday} year="2-digit" month="short" day="2-digit" weekday="long"></lightning-formatted-date-time></p>
+                    </div>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="DateTimeSection" label="DateTime Section">
+                <!-- DateTime -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="datetime" label="日付時間" onchange={onDateTimeChanged} data-id="inputDateTime" value={createdDateTime}></lightning-input>
+                    </div>
+                    <div class="slds-box slds-theme_default">
+                        <p class="slds-text-title">CreatedDateTime = {createdDateTime}</p>
+                        <p><lightning-formatted-date-time value={createdDateTime}></lightning-formatted-date-time></p>
+                        <p><lightning-formatted-date-time value={createdDateTime} year="2-digit" month="short" day="2-digit" hour="2-digit" minute="2-digit" weekday="narrow"></lightning-formatted-date-time></p>
+                        <p><lightning-formatted-date-time value={createdDateTime} year="2-digit" month="short" day="2-digit" hour="2-digit" minute="2-digit" weekday="long"></lightning-formatted-date-time></p>
+                    </div>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="EmailSection" label="Email Section">
+                <!-- Email -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="email" label="メール" onchange={onEmailChanged} data-id="inputEmail" value={email}></lightning-input>
+                    </div>
+                    <div class="slds-box slds-theme_default">
+                        <p class="slds-text-title">Your Email = {email}</p>
+                        <p>Default   = <lightning-formatted-email value={email}></lightning-formatted-email></p>
+                        <p>Hide Icon = <lightning-formatted-email value={email} hide-icon></lightning-formatted-email></p>
+                        <p>Label     = <lightning-formatted-email value={email} label="Email"></lightning-formatted-email></p>
+                    </div>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="FileSection" label="File Section">
+                <!-- File -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="file" label="ファイル" accept="image/png, .zip" onchange={handleFilesChange} data-id="inputFile" multiple></lightning-input>
+                    </div>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="NumberSection" label="Number Section">
+                <!-- Number -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="number" label="数値" onchange={onNumberChanged} data-id="inputNumber" value={number}></lightning-input>
+                    </div>
+                    <div class="slds-box slds-theme_default">
+                        <p class="slds-text-title">Number = {number}</p>
+                        <p>Default   = <lightning-formatted-number value={number}></lightning-formatted-number></p>
+                        <p>Currency  = <lightning-formatted-number value={number} format-style="currency" currency-code="USD"></lightning-formatted-number></p>
+                        <p>Percent   = <lightning-formatted-number value={number} format-style="percent"></lightning-formatted-number></p>
+                    </div>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="PasswordSection" label="Password Section">
+                <!-- Password -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="password" label="パスワード" onchange={onPasswordChanged} data-id="inputPassword" value={password}></lightning-input>
+                    </div>
+                    <div class="slds-box slds-theme_default">
+                        <p class="slds-text-title">Password = {password}</p>
+                    </div>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="RadioSection" label="Radio Section">
+                <!-- Radio -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="radio" label="Red" value="red" checked></lightning-input>
+                        <lightning-input type="radio" label="Blue" value="blue"></lightning-input>
+                    </div>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="RangeSection" label="Range Section">
+                <!-- Range -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="range" label="レンジ" min="0" max="100" onchange={onRangeChanged} data-id="inputRange" value={range}></lightning-input>
+                    </div>
+                    <div class="slds-box slds-theme_default">
+                        <p class="slds-text-title">Range = {range}</p>
+                    </div>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="SearchSection" label="Serach Section">
+                <!-- Search -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="search" label="サーチ" data-id="inputSearch"></lightning-input>
+                    </div>
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="search" label="サーチ" is-loading data-id="inputSearchIsLoading"></lightning-input>
+                    </div>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="TelSection" label="Tel Section">
+                <!-- Tel -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="tel" label="電話" onchange={onTelChanged} data-id="inputTel" value={phone} pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></lightning-input>
+                    </div>
+                    <div class="slds-box slds-theme_default">
+                        <p class="slds-text-title">Tel = {phone}</p>
+                        <p>Default   = <lightning-formatted-phone value={phone}></lightning-formatted-phone></p>
+                    </div>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="TimeSection" label="Time Section">
+                <!-- Time -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="time" label="時間" onchange={onTimeChanged} data-id="inputTime" value={time}></lightning-input>
+                    </div>
+                    <div class="slds-box slds-theme_default">
+                        <p class="slds-text-title">Time = {time}</p>
+                        <p>Default   = <lightning-formatted-time value={time}></lightning-formatted-time></p>
+                    </div>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="ToggleSection" label="Toggle Section">
+                <!-- Toggle -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="toggle" label="トグル" onchange={onToggleChanged} data-id="inputToggle" checked={isToggleChecked}></lightning-input>
+                    </div>
+                    <template if:true={isToggleChecked}>
+                        <div class="slds-box slds-theme_default">Toggle ON!</div>
+                    </template>
+                    <template if:false={isToggleChecked}>
+                        <div class="slds-box slds-theme_default">Toggle OFF</div>
+                    </template>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="UrlSection" label="URL Section">
+                <!-- URL -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input type="url" label="URL" onchange={onUrlChanged} data-id="inputUrl" value={url}></lightning-input>
+                    </div>
+                    <div class="slds-box slds-theme_default">
+                        <p class="slds-text-title">URL = {url}</p>
+                        <p>Default   = <lightning-formatted-url value={url}></lightning-formatted-url></p>
+                    </div>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="AddressSection" label="Address Section">
+                <!-- Address -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input-address
+                            address-label="Address"
+                            street-label="Street"
+                            city-label="City"
+                            country-label="Country"
+                            province-label="Province"
+                            postal-code-label="PostalCode"
+                            street="121 Spear St."
+                            city="San Francisco"
+                            country="US"
+                            province="CA"
+                            postal-code="94105"
+                            required
+                            field-level-help="Help Text for inputAddress field" ></lightning-input-address>
+                    </div>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="LocationSection" label="Location Section">
+                <!-- Location -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input-location label="No default coordinates" ></lightning-input-location>
+                    </div>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="NameFieldsSection" label="Name Fields Section">
+                <!-- Name -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input-name
+                            label="Default Input Name Field"
+                            first-name="John"
+                            middle-name="Middleton"
+                            last-name="Doe"
+                            informal-name="Jo"
+                            suffix="The 3rd"
+                            salutation="Mr."
+                            options={salutationOptions} ></lightning-input-name>
+                    </div>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="RichTextSection" label="RichText Section">
+                <!-- RichText -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-m-bottom_small">
+                        <lightning-input-rich-text onchange={onRichTextChanged} data-id="inputRichText" value={richText}></lightning-input-rich-text>
+                    </div>
+                    <div class="slds-box slds-theme_default">
+                        <p class="slds-text-title">RichText = {richText}</p>
+                        <p>Default   = <lightning-formatted-rich-text value={richText}></lightning-formatted-rich-text></p>
+                    </div>
+                </div>
+            </lightning-accordion-section>
+            <lightning-accordion-section name="ListSection" label="List Section">
+                <!-- List -->
+                <div class="slds-m-bottom_medium">
+                    <div class="slds-box slds-theme_default">
+                        <!-- List Sample 1 -->
                         <ul>
                             <template for:each={members} for:item="member" for:index="index">
                                 <li key={member.id}>{index}. {member.name}</li>
                             </template>
                         </ul>
                     </div>
-                    <div class="slds-col">
-                        <span><b>Pattern 2 (iterator)</b></span>
+                    <div class="slds-box slds-theme_default">
+                        <!-- List Sample 2 -->
                         <ul>
                             <template iterator:it={members}>
                                 <li key={it.value.id}>{it.index}. {it.value.name}: {it.first} : {it.last}</li>
@@ -60,7 +279,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
+            </lightning-accordion-section>
+        </lightning-accordion>
     </div>
 </template>
