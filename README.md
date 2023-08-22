@@ -92,7 +92,7 @@ sf data import tree -p data/accounts-data-plan.json
 
 スクラッチ組織のシステム管理者ユーザのパスワードを生成
 ```
-sf org generate password -l 12 -o <SCRATCH ORG AILAS>
+sf org generate password -l 12 -o ScratchOrg
 ```
 
 スクラッチ組織の作成処理を再開 (組織シェイプタイムアウトなどのエラー発生時の復旧方法)
