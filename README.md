@@ -17,14 +17,14 @@ SalesforceDXの開発勉強用リポジトリ。
 
 ## Usage
 ### Setup
+プロジェクトディレクトリに移動
+```
+/Users/<your directory>/projects/salesforce/workspace/
+```
+
+
 GitHubからプロジェクトをダウンロードしてVSCodeで開く。
 ```
-mkdir projects
-cd projects
-mkdir salesforce
-cd salesforce
-mkdir workspace
-cd workspace
 git clone git@github.com:tyoshikawa1106/sfdc-my-playground.git
 cd sfdc-my-playground
 code .
