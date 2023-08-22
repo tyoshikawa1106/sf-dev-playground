@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>TrailblazersApps</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <description>Trailblazers Application Perm Sets</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Trailblazers</label>
+    <tabSettings>
+        <tab>Bike_Card</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Lwc_Gallery</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Your_Bike_Selection</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>

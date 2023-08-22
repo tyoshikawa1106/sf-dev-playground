@@ -12,7 +12,7 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Trailblazers</label>
     <navType>Standard</navType>
-    <tabs>LwcGallery</tabs>
+    <tabs>Lwc_Gallery</tabs>
     <tabs>Bike_Card</tabs>
     <tabs>Your_Bike_Selection</tabs>
     <uiType>Lightning</uiType>

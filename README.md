@@ -78,7 +78,22 @@ Salesforce組織をブラウザで表示
 % sf org create scratch -v <DEVHUB ORG AILAS> -f config/project-scratch-def.json -d -y 7 -a <SCRATCH ORG AILAS>
 ```
 
-スクラッチ組織の作成再開 (組織シェイプタイムアウトなどのエラー発生時の普及)
+スクラッチ組織のシステム管理者ユーザに権限セットを割り当て
+```
+sf org assign permset -n Trailblazers
+```
+
+スクラッチ組織のシステム管理者ユーザのパスワードを生成
+```
+sf org generate password -l 12 -o <SCRATCH ORG AILAS>
+```
+
+スクラッチ組織にテストデータをインポート
+```
+sf data import tree -p data/accounts-data-plan.json
+```
+
+スクラッチ組織の作成再開 (組織シェイプタイムアウトなどのエラー発生時の復旧方法)
 ```
 % sf org resume scratch --job-id <JOB ID>
 or

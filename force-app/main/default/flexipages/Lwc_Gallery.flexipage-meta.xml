@@ -57,10 +57,6 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <name>Facet-a9b8e087-bf6a-4a0c-a3c5-eb943cbe587d</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -77,24 +73,6 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:accordionSection</componentName>
                 <identifier>flexipage_accordionSection</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-a9b8e087-bf6a-4a0c-a3c5-eb943cbe587d</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>label</name>
-                    <value>myFirstWebComponent</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>name</name>
-                    <value>accordionSection--hdtgyzjao8</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:accordionSection</componentName>
-                <identifier>flexipage_accordionSection2</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-8c355e3d-9d57-4f83-8a8b-fb565f1542ec</name>
@@ -206,7 +184,7 @@
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>LWC Gallery</masterLabel>
+    <masterLabel>Lwc Gallery</masterLabel>
     <template>
         <name>flexipage:appHomeTemplateThreeColumns</name>
     </template>
