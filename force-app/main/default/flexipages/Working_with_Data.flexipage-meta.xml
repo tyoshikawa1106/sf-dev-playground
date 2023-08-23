@@ -91,69 +91,21 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentInstanceProperties>
-                    <name>enableInlineEdit</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>entityName</name>
-                    <value>Account</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>filterName</name>
-                    <value>AllAccounts</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hideActionBar</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hideSearchBar</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>pageSize</name>
-                    <value>10</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:filterListCard</componentName>
-                <identifier>flexipage_filterListCard</identifier>
+                <componentName>accountList</componentName>
+                <identifier>c_accountList</identifier>
             </componentInstance>
         </itemInstances>
-        <name>Facet-75640d1f-b6ea-46c3-90ef-0eefd592a3ad</name>
+        <name>Facet-996ed0b6-e4a4-4a6c-aa63-34f8e387ab6a</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentInstanceProperties>
-                    <name>enableInlineEdit</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>entityName</name>
-                    <value>Contact</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>filterName</name>
-                    <value>AllContacts</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hideActionBar</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hideSearchBar</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>pageSize</name>
-                    <value>10</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:filterListCard</componentName>
-                <identifier>flexipage_filterListCard2</identifier>
+                <componentName>contactList</componentName>
+                <identifier>c_contactList</identifier>
             </componentInstance>
         </itemInstances>
-        <name>Facet-820b68e8-6f8e-4c80-8f30-4019e71c8f02</name>
+        <name>Facet-63244ef2-671c-4723-9fc5-7a1ba36bc6db</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -165,11 +117,11 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>body</name>
-                    <value>Facet-75640d1f-b6ea-46c3-90ef-0eefd592a3ad</value>
+                    <value>Facet-996ed0b6-e4a4-4a6c-aa63-34f8e387ab6a</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>title</name>
-                    <value>取引先</value>
+                    <value>accountList</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
                 <identifier>flexipage_tab</identifier>
@@ -179,17 +131,17 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
-                    <value>Facet-820b68e8-6f8e-4c80-8f30-4019e71c8f02</value>
+                    <value>Facet-63244ef2-671c-4723-9fc5-7a1ba36bc6db</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>title</name>
-                    <value>取引先責任者</value>
+                    <value>contactList</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
                 <identifier>flexipage_tab2</identifier>
             </componentInstance>
         </itemInstances>
-        <name>Facet-23c100dd-5055-4560-bedf-53f5428c113d</name>
+        <name>Facet-73bc3410-7881-4e71-be0a-1037605bbd4b</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -197,7 +149,7 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>tabs</name>
-                    <value>Facet-23c100dd-5055-4560-bedf-53f5428c113d</value>
+                    <value>Facet-73bc3410-7881-4e71-be0a-1037605bbd4b</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tabset</componentName>
                 <identifier>flexipage_tabset</identifier>
