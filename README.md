@@ -86,6 +86,11 @@ npm -v
 ```
 
 ### Salesforce CLI Commands Memo
+CLIのインストール
+```
+npm install --global @salesforce/cli
+```
+
 CLIのアップデート
 ```
 npm update --global @salesforce/cli
@@ -123,19 +128,30 @@ Homebrewのヘルプ
 brew help
 ```
 
-インストールツールのアップデート
+インストールコマンド
+```
+brew install git
+brew install node
+```
+
+アップデートコマンド
 ```
 brew upgrade
 ```
 
 ### npm Commands Memo
+npmのインストール
+```
+npm install --global
+```
+
 npmのアップデート
 ```
 npm update --global
 ```
 
-### Salesforce APIバージョンの設定
-sfdx-project.jsonファイルのsourceApiVersionで設定する。
+### Setting Salesforce API Version
+sfdx-project.jsonファイルの「sourceApiVersion」で設定する。
 
 ## Link
 - [Salesforce開発環境構築 (2023年版)](https://speakerdeck.com/tyoshikawa1106/salesforcekai-fa-huan-jing-gou-zhu-2023nian-ban)
