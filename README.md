@@ -1,6 +1,5 @@
 # Salesforce DX Project
-
-SalesforceDXの開発勉強用リポジトリ。
+Salesforce DX プロジェクトの学習用リポジトリ
 
 ## Table of Contents
 - [Requirements](#requirements)
@@ -24,8 +23,8 @@ SalesforceDXの開発勉強用リポジトリ。
 
 GitHubからプロジェクトをダウンロードしてVSCodeで開く。
 ```
-git clone git@github.com:tyoshikawa1106/sfdc-my-playground.git
-cd sfdc-my-playground
+git clone git@github.com:tyoshikawa1106/sf-my-playground.git
+cd sf-my-playground
 code .
 ```
 
@@ -74,7 +73,10 @@ sf org generate password -l 12 -o ScratchOrg
 sf org open -o ScratchOrg -b chrome
 ```
 
-### Version Commonds Memo
+アプリケーションランチャーから「Trailblazers」アプリケーションを選択。
+(Application Launcher → Trailblazers)
+
+### Tool version Commonds Memo
 ```
 sf -v
 brew -v
@@ -133,7 +135,7 @@ npm update --global
 ```
 
 ### Salesforce APIバージョンの設定
-sfdx-project.jsonファイルのsourceApiVersionで設定。
+sfdx-project.jsonファイルのsourceApiVersionで設定する。
 
 ## Link
 - [Salesforce開発環境構築 (2023年版)](https://speakerdeck.com/tyoshikawa1106/salesforcekai-fa-huan-jing-gou-zhu-2023nian-ban)
