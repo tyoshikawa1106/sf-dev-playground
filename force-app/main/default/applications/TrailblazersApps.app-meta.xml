@@ -15,6 +15,7 @@
     <tabs>Lwc_Gallery</tabs>
     <tabs>Bike_Card</tabs>
     <tabs>Your_Bike_Selection</tabs>
+    <tabs>Working_with_Data</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trailblazers_UtilityBar</utilityBar>
 </CustomApplication>

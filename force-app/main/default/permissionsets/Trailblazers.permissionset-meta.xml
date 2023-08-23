@@ -16,6 +16,10 @@
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>Working_with_Data</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>Your_Bike_Selection</tab>
         <visibility>Visible</visibility>
     </tabSettings>

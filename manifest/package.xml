@@ -32,12 +32,14 @@
         <members>Lwc_Gallery</members>
         <members>Bike_Card</members>
         <members>Your_Bike_Selection</members>
+        <members>Working_with_Data</members>
         <name>CustomTab</name>
     </types>
     <types>
         <members>Lwc_Gallery</members>
         <members>Bike_Card</members>
         <members>Your_Bike_Selection</members>
+        <members>Working_with_Data</members>
         <members>Trailblazers_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
