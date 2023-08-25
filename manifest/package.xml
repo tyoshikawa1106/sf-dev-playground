@@ -33,6 +33,7 @@
         <members>Bike_Card</members>
         <members>Your_Bike_Selection</members>
         <members>Working_with_Data</members>
+        <members>LWC_Visualforce_Devs</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -40,6 +41,7 @@
         <members>Bike_Card</members>
         <members>Your_Bike_Selection</members>
         <members>Working_with_Data</members>
+        <members>LWC_Visualforce_Devs</members>
         <members>Trailblazers_UtilityBar</members>
         <name>FlexiPage</name>
     </types>

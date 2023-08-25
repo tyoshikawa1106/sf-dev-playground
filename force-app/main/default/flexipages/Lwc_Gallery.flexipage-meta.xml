@@ -59,6 +59,26 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>myFirstWebComponent</componentName>
+                <identifier>c_myFirstWebComponent</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-b428f504-e90e-424a-b523-8d75db69acdb</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>accountSearch</componentName>
+                <identifier>c_accountSearch</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-7dad2855-3c8a-4430-b9bb-0f24f8efc488</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
                     <value>Facet-b7c63a11-d43c-452a-bf4f-d63d924d269e</value>
@@ -73,6 +93,42 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:accordionSection</componentName>
                 <identifier>flexipage_accordionSection</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-b428f504-e90e-424a-b523-8d75db69acdb</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>label</name>
+                    <value>myFirstComponent</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>name</name>
+                    <value>accordionSection--fc1f7yu4yie</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:accordionSection</componentName>
+                <identifier>flexipage_accordionSection2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-7dad2855-3c8a-4430-b9bb-0f24f8efc488</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>label</name>
+                    <value>accountSearch</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>name</name>
+                    <value>accordionSection--aiamw79cob4</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:accordionSection</componentName>
+                <identifier>flexipage_accordionSection3</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-8c355e3d-9d57-4f83-8a8b-fb565f1542ec</name>
@@ -91,12 +147,6 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:accordion</componentName>
                 <identifier>flexipage_accordion</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentName>myFirstWebComponent</componentName>
-                <identifier>c_myFirstWebComponent</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-0a2305cc-0f0d-4205-9379-e4c93b4cde9b</name>

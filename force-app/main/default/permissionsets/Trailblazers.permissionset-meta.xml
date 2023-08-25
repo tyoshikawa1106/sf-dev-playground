@@ -7,6 +7,10 @@
     <description>Trailblazers Application Perm Sets</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Trailblazers</label>
+    <pageAccesses>
+        <apexPage>accountSearch</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
     <tabSettings>
         <tab>Bike_Card</tab>
         <visibility>Visible</visibility>
