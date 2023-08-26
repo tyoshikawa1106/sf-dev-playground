@@ -17,6 +17,7 @@
     <tabs>Your_Bike_Selection</tabs>
     <tabs>Working_with_Data</tabs>
     <tabs>LWC_Visualforce_Devs</tabs>
+    <tabs>Event_Comms</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trailblazers_UtilityBar</utilityBar>
 </CustomApplication>

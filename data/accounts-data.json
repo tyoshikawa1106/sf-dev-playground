@@ -5,7 +5,7 @@
                 "type": "Account",
                 "referenceId": "AccountRef1"
             },
-            "Name": "株式会社ヨシカワシステム - 東京オフィス",
+            "Name": "sample company - tokyo",
             "Phone": "0X-XXXX-XXXX",
             "Fax": "0X-XXXX-XXXX",
             "AccountSource": null,
@@ -20,7 +20,7 @@
                 "type": "Account",
                 "referenceId": "AccountRef2"
             },
-            "Name": "株式会社ヨシカワシステム - 神奈川オフィス",
+            "Name": "sample company - kanagawa",
             "Phone": "0X-XXXX-XXXX",
             "Fax": "0X-XXXX-XXXX",
             "AccountSource": null,
@@ -35,7 +35,7 @@
                 "type": "Account",
                 "referenceId": "AccountRef3"
             },
-            "Name": "株式会社ヨシカワシステム - 静岡オフィス",
+            "Name": "sample company - shizuoka",
             "Phone": "0X-XXXX-XXXX",
             "Fax": "0X-XXXX-XXXX",
             "AccountSource": null,
@@ -65,7 +65,7 @@
                 "type": "Account",
                 "referenceId": "AccountRef5"
             },
-            "Name": "株式会社ヨシカワシステム - 長野オフィス",
+            "Name": "sample company - nagano",
             "Phone": "0X-XXXX-XXXX",
             "Fax": "0X-XXXX-XXXX",
             "AccountSource": null,
@@ -80,7 +80,7 @@
                 "type": "Account",
                 "referenceId": "AccountRef6"
             },
-            "Name": "株式会社ヨシカワシステム - 広島オフィス",
+            "Name": "sample company - hiroshima",
             "Phone": "0X-XXXX-XXXX",
             "Fax": "0X-XXXX-XXXX",
             "AccountSource": null,
@@ -95,7 +95,7 @@
                 "type": "Account",
                 "referenceId": "AccountRef7"
             },
-            "Name": "株式会社ヨシカワシステム - 福岡オフィス",
+            "Name": "sample company - fukuoka",
             "Phone": "0X-XXXX-XXXX",
             "Fax": "0X-XXXX-XXXX",
             "AccountSource": null,
@@ -110,7 +110,7 @@
                 "type": "Account",
                 "referenceId": "AccountRef8"
             },
-            "Name": "株式会社ヨシカワシステム - 名古屋オフィス",
+            "Name": "sample company - nagoya",
             "Phone": "0X-XXXX-XXXX",
             "Fax": "0X-XXXX-XXXX",
             "AccountSource": null,
@@ -125,7 +125,7 @@
                 "type": "Account",
                 "referenceId": "AccountRef9"
             },
-            "Name": "株式会社ヨシカワシステム - 岡山オフィス",
+            "Name": "sample company - okayama",
             "Phone": "0X-XXXX-XXXX",
             "Fax": "0X-XXXX-XXXX",
             "AccountSource": null,
@@ -140,7 +140,7 @@
                 "type": "Account",
                 "referenceId": "AccountRef10"
             },
-            "Name": "株式会社ヨシカワシステム - 島根オフィス",
+            "Name": "sample company - shimane",
             "Phone": "0X-XXXX-XXXX",
             "Fax": "0X-XXXX-XXXX",
             "AccountSource": null,
