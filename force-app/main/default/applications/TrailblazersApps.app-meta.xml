@@ -21,6 +21,7 @@
     <tabs>Method_Caller</tabs>
     <tabs>App_Parent</tabs>
     <tabs>Slot_Wrapper</tabs>
+    <tabs>Hello_Expressions</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trailblazers_UtilityBar</utilityBar>
 </CustomApplication>

@@ -38,6 +38,7 @@
         <members>Method_Caller</members>
         <members>App_Parent</members>
         <members>Slot_Wrapper</members>
+        <members>Hello_Expressions</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -50,6 +51,7 @@
         <members>Method_Caller</members>
         <members>App_Parent</members>
         <members>Slot_Wrapper</members>
+        <members>Hello_Expressions</members>
         <members>Trailblazers_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
