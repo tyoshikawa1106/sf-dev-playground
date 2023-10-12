@@ -3,11 +3,11 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>methodCaller</componentName>
-                <identifier>c_methodCaller</identifier>
+                <componentName>appParent</componentName>
+                <identifier>c_appParent</identifier>
             </componentInstance>
         </itemInstances>
-        <name>Facet-609498e5-5d6a-4039-9697-836ced0104b4</name>
+        <name>Facet-0d4d204c-c163-40e5-92ac-afca11aee265</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -19,17 +19,17 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>body</name>
-                    <value>Facet-609498e5-5d6a-4039-9697-836ced0104b4</value>
+                    <value>Facet-0d4d204c-c163-40e5-92ac-afca11aee265</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>title</name>
-                    <value>Standard.Tab.content</value>
+                    <value>lwc:spread</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
                 <identifier>flexipage_tab</identifier>
             </componentInstance>
         </itemInstances>
-        <name>Facet-db749756-0e3d-4df7-abe7-00de916618ff</name>
+        <name>Facet-471cd5cd-995d-47b8-bf6d-1bb7b7c66def</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -37,7 +37,7 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>tabs</name>
-                    <value>Facet-db749756-0e3d-4df7-abe7-00de916618ff</value>
+                    <value>Facet-471cd5cd-995d-47b8-bf6d-1bb7b7c66def</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tabset</componentName>
                 <identifier>flexipage_tabset</identifier>
@@ -46,7 +46,7 @@
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Method Caller</masterLabel>
+    <masterLabel>App Parent</masterLabel>
     <template>
         <name>flexipage:defaultAppHomeTemplate</name>
     </template>
