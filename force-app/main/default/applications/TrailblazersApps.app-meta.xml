@@ -20,6 +20,7 @@
     <tabs>Event_Comms</tabs>
     <tabs>Method_Caller</tabs>
     <tabs>App_Parent</tabs>
+    <tabs>Slot_Wrapper</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trailblazers_UtilityBar</utilityBar>
 </CustomApplication>

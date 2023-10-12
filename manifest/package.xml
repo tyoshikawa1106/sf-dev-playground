@@ -37,6 +37,7 @@
         <members>Event_Comms</members>
         <members>Method_Caller</members>
         <members>App_Parent</members>
+        <members>Slot_Wrapper</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -48,6 +49,7 @@
         <members>Event_Comms</members>
         <members>Method_Caller</members>
         <members>App_Parent</members>
+        <members>Slot_Wrapper</members>
         <members>Trailblazers_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
