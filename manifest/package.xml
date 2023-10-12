@@ -35,6 +35,7 @@
         <members>Working_with_Data</members>
         <members>LWC_Visualforce_Devs</members>
         <members>Event_Comms</members>
+        <members>Method_Caller</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -44,6 +45,7 @@
         <members>Working_with_Data</members>
         <members>LWC_Visualforce_Devs</members>
         <members>Event_Comms</members>
+        <members>Method_Caller</members>
         <members>Trailblazers_UtilityBar</members>
         <name>FlexiPage</name>
     </types>

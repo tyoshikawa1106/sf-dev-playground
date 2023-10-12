@@ -18,6 +18,7 @@
     <tabs>Working_with_Data</tabs>
     <tabs>LWC_Visualforce_Devs</tabs>
     <tabs>Event_Comms</tabs>
+    <tabs>Method_Caller</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trailblazers_UtilityBar</utilityBar>
 </CustomApplication>
