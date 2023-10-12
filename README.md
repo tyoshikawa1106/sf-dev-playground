@@ -7,12 +7,12 @@ Salesforce DX プロジェクトの学習用リポジトリ
 - [Link](#link)
 
 ## Requirements
-- Visual Studio Code 1.81.1 (Universal)
-- @salesforce/cli/2.4.10 darwin-arm64 node-v20.5.1
-- Homebrew 4.1.6
+- Visual Studio Code 1.82.2 (Universal)
+- @salesforce/cli/2.12.9 darwin-arm64 node-v20.8.0
+- Homebrew 4.1.15
 - git version 2.42.0
-- node v20.5.1
-- npm 9.8.1
+- node v20.8.0
+- npm 10.2.0
 
 ## Usage
 ### Setup
@@ -88,12 +88,12 @@ npm -v
 ### Salesforce CLI Commands Memo
 CLIのインストール
 ```
-npm install --global @salesforce/cli
+npm install -g @salesforce/cli
 ```
 
 CLIのアップデート
 ```
-npm update --global @salesforce/cli
+npm update -g @salesforce/cli
 ```
 
 CLIのヘルプ
@@ -142,20 +142,26 @@ brew upgrade
 ### npm Commands Memo
 npmのインストール
 ```
-npm install --global
+npm install -g npm
 ```
 
 npmのアップデート
 ```
-npm update --global
+npm update -g npm
 ```
 
 ### Setting Salesforce API Version
 sfdx-project.jsonファイルの「sourceApiVersion」で設定する。
 
+### Salesforce Lightning Component Org Library
+```
+https://<your domain>.lightning.force.com/docs/component-library
+```
+
 ## Link
 - [Salesforce開発環境構築 (2023年版)](https://speakerdeck.com/tyoshikawa1106/salesforcekai-fa-huan-jing-gou-zhu-2023nian-ban)
 - [Salesforceプロジェクトのバージョン管理](https://speakerdeck.com/tyoshikawa1106/salesforcepuroziekutonobaziyonguan-li)
+- [Salesforce Lightning Component Library](https://developer.salesforce.com/docs/component-library/overview/components)
 - [Homebrew](https://brew.sh/index_ja)
 - [Visual Studio Code](https://code.visualstudio.com)
 - [Salesforce Extension Pack](https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode)
