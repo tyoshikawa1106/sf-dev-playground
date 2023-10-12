@@ -30,6 +30,7 @@ export default class VideoPlayer extends LightningElement {
 
   // private getter for computed value
   get videoType() {
-    return "video/" + this.videoUrl.split(".").pop();
+    //return "video/" + this.videoUrl.split(".").pop();
+    return "video/mp4"
   }
 }
