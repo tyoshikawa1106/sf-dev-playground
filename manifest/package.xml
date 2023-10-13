@@ -39,6 +39,7 @@
         <members>App_Parent</members>
         <members>Slot_Wrapper</members>
         <members>Hello_Expressions</members>
+        <members>Libs_D3</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -52,6 +53,7 @@
         <members>App_Parent</members>
         <members>Slot_Wrapper</members>
         <members>Hello_Expressions</members>
+        <members>Libs_D3</members>
         <members>Trailblazers_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
