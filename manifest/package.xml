@@ -46,6 +46,7 @@
         <members>Paginator</members>
         <members>Lds_Create_Record</members>
         <members>My_Tree_Grid</members>
+        <members>Apex_Wire_Method_To_Property</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -66,6 +67,7 @@
         <members>Paginator</members>
         <members>Lds_Create_Record</members>
         <members>My_Tree_Grid</members>
+        <members>Apex_Wire_Method_To_Property</members>
         <members>Trailblazers_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
