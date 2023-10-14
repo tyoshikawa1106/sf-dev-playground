@@ -23,8 +23,8 @@ Salesforce DX プロジェクトの学習用リポジトリ
 
 GitHubからプロジェクトをダウンロードしてVSCodeで開く。
 ```
-git clone git@github.com:tyoshikawa1106/sf-my-playground.git
-cd sf-my-playground
+git clone git@github.com:tyoshikawa1106/sf-dev-playground.git
+cd sf-dev-playground
 code .
 ```
 

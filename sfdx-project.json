@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "sf-my-playground",
+  "name": "sf-dev-playground",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "58.0"
