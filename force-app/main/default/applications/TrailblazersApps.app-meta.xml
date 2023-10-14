@@ -23,6 +23,8 @@
     <tabs>Slot_Wrapper</tabs>
     <tabs>Hello_Expressions</tabs>
     <tabs>Libs_D3</tabs>
+    <tabs>Libs_SVG</tabs>
+    <tabs>Label_Example</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trailblazers_UtilityBar</utilityBar>
 </CustomApplication>

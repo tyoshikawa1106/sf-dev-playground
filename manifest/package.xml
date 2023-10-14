@@ -40,6 +40,7 @@
         <members>Slot_Wrapper</members>
         <members>Hello_Expressions</members>
         <members>Libs_D3</members>
+        <members>Label_Example</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -54,12 +55,17 @@
         <members>Slot_Wrapper</members>
         <members>Hello_Expressions</members>
         <members>Libs_D3</members>
+        <members>Label_Example</members>
         <members>Trailblazers_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
     <types>
         <members>Trailblazers</members>
         <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomLabel</name>
     </types>
     <version>58.0</version>
 </Package>
