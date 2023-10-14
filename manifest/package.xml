@@ -47,6 +47,7 @@
         <members>Lds_Create_Record</members>
         <members>My_Tree_Grid</members>
         <members>Apex_Wire_Method_To_Property</members>
+        <members>Apex_Imperative_Method</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -68,6 +69,7 @@
         <members>Lds_Create_Record</members>
         <members>My_Tree_Grid</members>
         <members>Apex_Wire_Method_To_Property</members>
+        <members>Apex_Imperative_Method</members>
         <members>Trailblazers_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
