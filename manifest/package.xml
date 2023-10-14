@@ -45,6 +45,7 @@
         <members>Has_View_Setup</members>
         <members>Paginator</members>
         <members>Lds_Create_Record</members>
+        <members>My_Tree_Grid</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -64,6 +65,7 @@
         <members>Has_View_Setup</members>
         <members>Paginator</members>
         <members>Lds_Create_Record</members>
+        <members>My_Tree_Grid</members>
         <members>Trailblazers_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
