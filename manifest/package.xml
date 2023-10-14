@@ -41,6 +41,7 @@
         <members>Hello_Expressions</members>
         <members>Libs_D3</members>
         <members>Label_Example</members>
+        <members>Misc_Get_UserId</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -56,6 +57,7 @@
         <members>Hello_Expressions</members>
         <members>Libs_D3</members>
         <members>Label_Example</members>
+        <members>Misc_Get_UserId</members>
         <members>Trailblazers_UtilityBar</members>
         <name>FlexiPage</name>
     </types>

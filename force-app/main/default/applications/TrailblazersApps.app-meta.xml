@@ -25,6 +25,7 @@
     <tabs>Libs_D3</tabs>
     <tabs>Libs_SVG</tabs>
     <tabs>Label_Example</tabs>
+    <tabs>Misc_Get_UserId</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trailblazers_UtilityBar</utilityBar>
 </CustomApplication>
