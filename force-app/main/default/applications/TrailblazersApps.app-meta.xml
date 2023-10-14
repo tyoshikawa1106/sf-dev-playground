@@ -24,6 +24,7 @@
     <tabs>Hello_Expressions</tabs>
     <tabs>Libs_D3</tabs>
     <tabs>Libs_SVG</tabs>
+    <tabs>Has_View_Setup</tabs>
     <tabs>Label_Example</tabs>
     <tabs>Misc_Get_UserId</tabs>
     <uiType>Lightning</uiType>

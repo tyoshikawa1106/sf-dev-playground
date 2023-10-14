@@ -42,6 +42,7 @@
         <members>Libs_D3</members>
         <members>Label_Example</members>
         <members>Misc_Get_UserId</members>
+        <members>Has_View_Setup</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -58,6 +59,7 @@
         <members>Libs_D3</members>
         <members>Label_Example</members>
         <members>Misc_Get_UserId</members>
+        <members>Has_View_Setup</members>
         <members>Trailblazers_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
