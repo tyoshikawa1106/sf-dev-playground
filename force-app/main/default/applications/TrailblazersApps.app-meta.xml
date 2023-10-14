@@ -28,6 +28,7 @@
     <tabs>Label_Example</tabs>
     <tabs>Misc_Get_UserId</tabs>
     <tabs>Paginator</tabs>
+    <tabs>Lds_Create_Record</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trailblazers_UtilityBar</utilityBar>
 </CustomApplication>
