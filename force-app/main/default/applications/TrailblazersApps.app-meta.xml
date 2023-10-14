@@ -27,6 +27,7 @@
     <tabs>Has_View_Setup</tabs>
     <tabs>Label_Example</tabs>
     <tabs>Misc_Get_UserId</tabs>
+    <tabs>Paginator</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trailblazers_UtilityBar</utilityBar>
 </CustomApplication>

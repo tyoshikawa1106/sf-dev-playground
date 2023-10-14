@@ -43,6 +43,7 @@
         <members>Label_Example</members>
         <members>Misc_Get_UserId</members>
         <members>Has_View_Setup</members>
+        <members>Paginator</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -58,8 +59,9 @@
         <members>Hello_Expressions</members>
         <members>Libs_D3</members>
         <members>Label_Example</members>
-        <members>Misc_Get_UserId</members>
+        <members>Misc_Get_UserId</members>Paginator
         <members>Has_View_Setup</members>
+        <members>Paginator</members>
         <members>Trailblazers_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
