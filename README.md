@@ -128,6 +128,11 @@ sf org logout
 sf org resume scratch --job-id <JOB ID>
 ```
 
+スクラッチ組織の削除
+```
+sf org delete scratch -o <Scratch Org Alias>
+```
+
 ### Homebrew Commands Memo
 Homebrewの診断
 ```
