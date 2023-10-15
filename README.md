@@ -43,6 +43,17 @@ DevHub組織をChromeブラウザで開く
 sf org open -o DevHub -b chrome
 ```
 
+認証組織の設定状況表示
+```
+sf config list
+```
+
+認証組織のtarget設定
+```
+sf config set target-dev-hub=sf-dev-playground
+sf config set target-org=sf-dev-playground
+```
+
 スクラッチ組織の作成
 ```
 sf org create scratch -v DevHub -f config/project-scratch-def.json -d -y 7 -a ScratchOrg
