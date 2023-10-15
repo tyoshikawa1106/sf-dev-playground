@@ -24,13 +24,14 @@
     <tabs>Hello_Expressions</tabs>
     <tabs>Libs_D3</tabs>
     <tabs>Libs_SVG</tabs>
-    <tabs>Has_View_Setup</tabs>
     <tabs>Label_Example</tabs>
+    <tabs>Has_View_Setup</tabs>
     <tabs>Misc_Get_UserId</tabs>
     <tabs>Paginator</tabs>
     <tabs>Lds_Create_Record</tabs>
     <tabs>My_Tree_Grid</tabs>
     <tabs>Apex_Wire_Method_To_Property</tabs>
+    <tabs>Apex_Imperative_Method</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trailblazers_UtilityBar</utilityBar>
 </CustomApplication>

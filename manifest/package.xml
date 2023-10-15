@@ -40,6 +40,7 @@
         <members>Slot_Wrapper</members>
         <members>Hello_Expressions</members>
         <members>Libs_D3</members>
+        <members>Libs_SVG</members>
         <members>Label_Example</members>
         <members>Misc_Get_UserId</members>
         <members>Has_View_Setup</members>
@@ -62,6 +63,7 @@
         <members>Slot_Wrapper</members>
         <members>Hello_Expressions</members>
         <members>Libs_D3</members>
+        <members>Libs_SVG</members>
         <members>Label_Example</members>
         <members>Misc_Get_UserId</members>
         <members>Has_View_Setup</members>

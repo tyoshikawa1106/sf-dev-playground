@@ -50,8 +50,8 @@ sf config list
 
 認証組織のtarget設定
 ```
-sf config set target-dev-hub=sf-dev-playground
-sf config set target-org=sf-dev-playground
+sf config set target-dev-hub=<Alias>
+sf config set target-org=<Alias>
 ```
 
 スクラッチ組織の作成
