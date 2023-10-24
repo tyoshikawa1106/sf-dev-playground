@@ -13,6 +13,7 @@ Salesforce DX プロジェクトの学習用リポジトリ
 - git version 2.42.0
 - node v20.8.0
 - npm 10.2.0
+- openjdk 17.0.9 2023-10-17 LTS
 
 ## Usage
 ### Setup
@@ -94,6 +95,7 @@ brew -v
 git -v
 node -v
 npm -v
+java --version
 ```
 
 ### Salesforce CLI Commands Memo
