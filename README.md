@@ -7,19 +7,19 @@ Salesforce DX プロジェクトの学習用リポジトリ
 - [Link](#link)
 
 ## Requirements
-- Visual Studio Code 1.82.2 (Universal)
-- @salesforce/cli/2.12.9 darwin-arm64 node-v20.8.0
-- Homebrew 4.1.15
-- git version 2.42.0
-- node v20.8.0
-- npm 10.2.0
+- Visual Studio Code 1.84.0 (Universal)
+- @salesforce/cli/2.16.10 darwin-arm64 node-v20.8.0
+- Homebrew 4.1.19
+- git version 2.42.1
+- node v21.1.0
+- npm 10.2.3
 - openjdk 17.0.9 2023-10-17 LTS
 
 ## Usage
 ### Setup
 プロジェクトディレクトリ
 ```
-/Users/<your directory>/projects/salesforce/workspace/
+/Users/<your directory>/projects/
 ```
 
 GitHubからプロジェクトをダウンロードしてVSCodeで開く。
