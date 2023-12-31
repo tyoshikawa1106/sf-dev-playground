@@ -79,6 +79,16 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>recordPickerHello</componentName>
+                <identifier>c_recordPickerHello</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-a4d89091-eae7-4a18-88ab-1ec2c657cb80</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
                     <value>Facet-b7c63a11-d43c-452a-bf4f-d63d924d269e</value>
@@ -129,6 +139,24 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:accordionSection</componentName>
                 <identifier>flexipage_accordionSection3</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-a4d89091-eae7-4a18-88ab-1ec2c657cb80</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>label</name>
+                    <value>recordPickerHello</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>name</name>
+                    <value>accordionSection--tvbvwekjs2e</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:accordionSection</componentName>
+                <identifier>flexipage_accordionSection4</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-8c355e3d-9d57-4f83-8a8b-fb565f1542ec</name>
