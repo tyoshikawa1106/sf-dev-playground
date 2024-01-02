@@ -50,6 +50,7 @@
         <members>Apex_Wire_Method_To_Property</members>
         <members>Apex_Imperative_Method</members>
         <members>LwcHelloWolrd</members>
+        <members>TrackDecorator</members>
         <name>CustomTab</name>
     </types>
     <types>

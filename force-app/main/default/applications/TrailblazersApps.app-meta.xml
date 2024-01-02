@@ -33,6 +33,7 @@
     <tabs>Apex_Wire_Method_To_Property</tabs>
     <tabs>Apex_Imperative_Method</tabs>
     <tabs>LwcHelloWolrd</tabs>
+    <tabs>TrackDecorator</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trailblazers_UtilityBar</utilityBar>
 </CustomApplication>
