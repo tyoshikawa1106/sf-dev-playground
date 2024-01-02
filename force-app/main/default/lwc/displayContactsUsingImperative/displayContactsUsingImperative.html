@@ -1,0 +1,25 @@
+<template>
+    <lightning-card title="Display Contacts using Imperative" icon-name="custom:custom63">
+        <div class="slds-m-around_medium">
+            <p class="slds-m-bottom_small">
+                <lightning-button label="Load Contacts" onclick={handleLoad}></lightning-button>
+            </p>
+            <template lwc:if={contacts}>
+                <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                    <tr>
+                        <td><b>Name</b></td>
+                        <td><b>Phone</b></td>
+                        <td><b>Account Name</b></td>
+                    </tr>
+                    <template for:each={contacts} for:item="contact">
+                        <tr key={contact.Id}>
+                            <td>{contact.Name}</td>
+                            <td>{contact.Phone}</td>
+                            <td>{contact.Account.Name}</td>
+                        </tr>
+                    </template>
+                </table>
+            </template>
+        </div>
+    </lightning-card>   
+</template>
