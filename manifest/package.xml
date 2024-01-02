@@ -51,6 +51,8 @@
         <members>Apex_Imperative_Method</members>
         <members>LwcHelloWolrd</members>
         <members>TrackDecorator</members>
+        <members>LwcRecordForm</members>
+        <members>DisplayContactsUsingImperative</members>
         <name>CustomTab</name>
     </types>
     <types>
