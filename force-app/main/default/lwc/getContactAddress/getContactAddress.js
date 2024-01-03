@@ -10,28 +10,29 @@ import POSTAL_FIELD from "@salesforce/schema/Contact.MailingPostalCode";
 const FIELDS = [STREET_FIELD, CITY_FIELD, STATE_FIELD, COUNTRY_FIELD, POSTAL_FIELD];
 
 export default class GetContactAddress extends LightningElement {
-  @api recordId; // provided by the contact record page
 
-  @wire(getRecord, { recordId: "$recordId", fields: FIELDS })
-  contact;
+    @api recordId; // provided by the contact record page
 
-  get street() {
-    return this.contact.data.fields.MailingStreet.value;
-  }
+    @wire(getRecord, { recordId: "$recordId", fields: FIELDS })
+    contact;
 
-  get city() {
-    return this.contact.data.fields.MailingCity.value;
-  }
+    get street() {
+        return this.contact.data.fields.MailingStreet.value;
+    }
 
-  get state() {
-    return this.contact.data.fields.MailingState.value;
-  }
+    get city() {
+        return this.contact.data.fields.MailingCity.value;
+    }
 
-  get country() {
-    return this.contact.data.fields.MailingCountry.value;
-  }
+    get state() {
+        return this.contact.data.fields.MailingState.value;
+    }
 
-  get postal() {
-    return this.contact.data.fields.MailingPostalCode.value;
-  }
+    get country() {
+        return this.contact.data.fields.MailingCountry.value;
+    }
+
+    get postal() {
+        return this.contact.data.fields.MailingPostalCode.value;
+    }
 }

@@ -2,6 +2,7 @@ import { LightningElement } from 'lwc';
 import getContactList from "@salesforce/apex/DisplayContactsUsingImperativeController.getContactList";
 
 export default class DisplayContactsUsingImperative extends LightningElement {
+    
     contacts;
     error;
 

@@ -6,6 +6,7 @@ import ANNUALREVENUE_FIELD from '@salesforce/schema/Account.AnnualRevenue';
 import ACCOUNT_OBJECT from '@salesforce/schema/Account';
 
 export default class LwcRecordEditForm extends LightningElement {
+    
     @api recordId;
     objectApiName = ACCOUNT_OBJECT;
     nameField = NAME_FIELD;

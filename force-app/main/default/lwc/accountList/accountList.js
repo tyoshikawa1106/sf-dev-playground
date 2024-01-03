@@ -9,13 +9,15 @@ const COLUMNS = [
     { label: 'Annual Revenue', fieldName: REVENUE_FIELD.fieldApiName, type: 'currency' },
     { label: 'Industry', fieldName: INDUSTRY_FIELD.fieldApiName, type: 'text' }
 ];
+
 export default class AccountList extends LightningElement {
+
     columns = COLUMNS;
+    
     @wire(getAccounts)
     accounts;
 
     get errors() {
-        return (this.accounts.error) ?
-            reduceErrors(this.accounts.error) : [];
+        return (this.accounts.error) ? reduceErrors(this.accounts.error) : [];
     }
 }

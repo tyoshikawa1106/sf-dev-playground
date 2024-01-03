@@ -1,20 +1,10 @@
 <template>
     <lightning-card title="LWC - RecordEdit Form">
-        <lightning-record-edit-form
-            record-id={recordId}
-            object-api-name={objectApiName}
-            onsuccess={handleSuccess}>
+        <lightning-record-edit-form record-id={recordId} object-api-name={objectApiName} onsuccess={handleSuccess}>
             <lightning-input-field field-name={nameField}></lightning-input-field>
             <lightning-input-field field-name={annualRevenueField}></lightning-input-field>
             <lightning-input-field field-name={phoneField}></lightning-input-field>
-            <lightning-button
-                class="slds-m-top_small"
-                variant="brand"
-                type="submit"
-                name="update"
-                label="Update"
-            >
-            </lightning-button>
+            <lightning-button class="slds-m-top_small" variant="brand" type="submit" name="update" label="Update"></lightning-button>
         </lightning-record-edit-form>
     </lightning-card>
 </template>

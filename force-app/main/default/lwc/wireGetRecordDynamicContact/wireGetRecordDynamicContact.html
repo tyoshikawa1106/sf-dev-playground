@@ -1,15 +1,15 @@
 <template>
     <lightning-card title="My Contact Record" icon-name="standard:contact">
-      <template lwc:if={contact.data}>
-        <div class="slds-m-around_medium">
-          <p>{name}</p>
-          <p>{title}</p>
-          <p><lightning-formatted-phone value={phone}></lightning-formatted-phone></p>
-          <p><lightning-formatted-email value={email}></lightning-formatted-email></p>
-        </div>
-      </template>
-      <template lwc:if={contact.error}>
-        <p>{contact.error}</p>
-      </template>
+        <template lwc:if={contact.data}>
+            <div class="slds-m-around_medium">
+                <p>{name}</p>
+                <p>{title}</p>
+                <p><lightning-formatted-phone value={phone}></lightning-formatted-phone></p>
+                <p><lightning-formatted-email value={email}></lightning-formatted-email></p>
+            </div>
+        </template>
+        <template lwc:if={contact.error}>
+            <p>{contact.error}</p>
+        </template>
     </lightning-card>
-  </template>
+</template>
