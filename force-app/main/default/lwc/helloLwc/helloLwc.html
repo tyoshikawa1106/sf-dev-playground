@@ -18,10 +18,10 @@
                     <div class="slds-m-bottom_small">
                         <lightning-input type="checkbox" label="チェックボックス" onchange={onCheckboxChanged} data-id="inputCheckbox" checked={isChecked}></lightning-input>
                     </div>
-                    <template if:true={isChecked}>
+                    <template lwc:if={isChecked}>
                         <div class="slds-box slds-theme_default">Checkbox ON!</div>
                     </template>
-                    <template if:false={isChecked}>
+                    <template lwc:else>
                         <div class="slds-box slds-theme_default">Checkbox OFF</div>
                     </template>
                 </div>
@@ -32,10 +32,10 @@
                     <div class="slds-m-bottom_small">
                         <lightning-input type="checkbox-button" label="チェックボックスボタン" onchange={onCheckboxButtonChanged} data-id="inutCheckboxButton" checked={isCheckboxButtonChecked}></lightning-input>
                     </div>
-                    <template if:true={isCheckboxButtonChecked}>
+                    <template lwc:if={isCheckboxButtonChecked}>
                         <div class="slds-box slds-theme_default">Checkbox Button ON!</div>
                     </template>
-                    <template if:false={isCheckboxButtonChecked}>
+                    <template lwc:else>
                         <div class="slds-box slds-theme_default">Checkbox Button OFF</div>
                     </template>
                 </div>
@@ -182,10 +182,10 @@
                     <div class="slds-m-bottom_small">
                         <lightning-input type="toggle" label="トグル" onchange={onToggleChanged} data-id="inputToggle" checked={isToggleChecked}></lightning-input>
                     </div>
-                    <template if:true={isToggleChecked}>
+                    <template lwc:if={isToggleChecked}>
                         <div class="slds-box slds-theme_default">Toggle ON!</div>
                     </template>
-                    <template if:false={isToggleChecked}>
+                    <template lwc:else>
                         <div class="slds-box slds-theme_default">Toggle OFF</div>
                     </template>
                 </div>

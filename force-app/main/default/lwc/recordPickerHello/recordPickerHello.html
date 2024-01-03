@@ -3,7 +3,7 @@
         <div>
             <lightning-record-picker lwc:ref="recordPicker" object-api-name="Contact" placeholder="Search..." label="Select a record" onchange={handleChange}></lightning-record-picker>
         </div>
-        <template if:true={contact}>
+        <template lwc:if={contact}>
             <div class="slds-var-m-around_medium selectedRecordDetails">
                 <c-contact-tile class="slds-show slds-is-relative" contact={contact}></c-contact-tile>
             </div>
