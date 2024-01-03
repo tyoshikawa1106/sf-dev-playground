@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Display Accounts using Wire" icon-name="custom:custom63">
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+            <tr>
+                <td><b>Name</b></td>
+                <td><b>AcconutNumber</b></td>
+                <td><b>Industry</b></td>
+                <td><b>Rating</b></td>
+            </tr>
+            <template for:each={accounts.data} for:item="acc">
+                <tr key={acc.Id}>
+                    <td>{acc.Name}</td>
+                    <td>{acc.AccountNumber}</td>
+                    <td>{acc.Industry}</td>
+                    <td>{acc.Rating}</td>
+                </tr>
+            </template>
+        </table>
+    </lightning-card>
+</template>
