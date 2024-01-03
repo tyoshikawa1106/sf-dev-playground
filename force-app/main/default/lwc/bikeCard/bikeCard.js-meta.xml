@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
-    <!-- The apiVersion may need to be increased for the current release -->
-    <apiVersion>58.0</apiVersion>
+    <apiVersion>59.0</apiVersion>
     <isExposed>true</isExposed>
     <masterLabel>Bike Card</masterLabel>
     <targets>

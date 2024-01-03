@@ -1,7 +1,7 @@
 @isTest
 private class HelloDevOpsCenterControllerTest {
 
-    private static User testAdminUser = [SELECT Id FROM User WHERE Id =: UserInfo.getUserId() LIMIT 1];
+    private static User testAdminUser = CommonTester.getLoginUser();
 
     /**
      * コンストラクタ
@@ -16,7 +16,7 @@ private class HelloDevOpsCenterControllerTest {
             
             Test.stopTest();
             
-            System.assertEquals(String.isNotEmpty(cls.keyword), true);
+            System.assert(String.isNotEmpty(cls.keyword));
         }
     }
 }
