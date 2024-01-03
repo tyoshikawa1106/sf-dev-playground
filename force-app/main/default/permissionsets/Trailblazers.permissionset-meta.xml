@@ -28,6 +28,14 @@
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>DisplayAccountsUsingWire</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>DisplayContactsUsingImperative</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>Event_Comms</tab>
         <visibility>Visible</visibility>
     </tabSettings>
@@ -60,6 +68,14 @@
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>LwcHelloWolrd</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>LwcRecordForm</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>Lwc_Gallery</tab>
         <visibility>Visible</visibility>
     </tabSettings>
@@ -81,6 +97,10 @@
     </tabSettings>
     <tabSettings>
         <tab>Slot_Wrapper</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>TrackDecorator</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
