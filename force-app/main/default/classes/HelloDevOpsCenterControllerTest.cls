@@ -16,7 +16,7 @@ private class HelloDevOpsCenterControllerTest {
             
             Test.stopTest();
             
-            System.assert(String.isNotEmpty(cls.keyword));
+            Assert.isTrue(String.isNotEmpty(cls.keyword));
         }
     }
 }
