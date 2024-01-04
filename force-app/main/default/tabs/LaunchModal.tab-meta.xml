@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>https://www.youtube.com/live/Y0Bcx1MkZMY?si=xKvIz0N90CY0jpNP</description>
+    <label>LaunchModal</label>
+    <lwcComponent>launchModal</lwcComponent>
+    <motif>Custom9: Lightning</motif>
+</CustomTab>

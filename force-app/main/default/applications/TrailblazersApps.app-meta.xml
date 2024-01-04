@@ -37,6 +37,7 @@
     <tabs>LwcRecordForm</tabs>
     <tabs>DisplayAccountsUsingWire</tabs>
     <tabs>DisplayContactsUsingImperative</tabs>
+    <tabs>LaunchModal</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trailblazers_UtilityBar</utilityBar>
 </CustomApplication>

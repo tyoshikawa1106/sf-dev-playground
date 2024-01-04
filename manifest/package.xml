@@ -53,6 +53,7 @@
         <members>TrackDecorator</members>
         <members>LwcRecordForm</members>
         <members>DisplayContactsUsingImperative</members>
+        <members>LaunchModal</members>
         <name>CustomTab</name>
     </types>
     <types>

@@ -56,6 +56,10 @@
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>LaunchModal</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>Lds_Create_Record</tab>
         <visibility>Visible</visibility>
     </tabSettings>
