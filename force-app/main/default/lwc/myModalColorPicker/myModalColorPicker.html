@@ -1,0 +1,16 @@
+<template>
+    <lightning-modal-header label="My Color Picker In Modal"></lightning-modal-header>
+    <lightning-modal-body>
+        <div class="slds-var-m-top_medium slds-m-bottom_x-large">
+            <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+                An input field with a color picker. Type a valid hex color value such as <code>{color}</code> or click the menu to select a color.
+            </h2>
+            <div class="slds-p-around_medium lgc-bg">
+                <lightning-input type="color" name="input-color" label="Favorite color" value={color} onchange={handleChange}></lightning-input>
+            </div>
+        </div>    
+    </lightning-modal-body>
+    <lightning-modal-footer>
+        <lightning-button label="Select" onclick={handleSelect}></lightning-button>
+    </lightning-modal-footer>
+</template>
