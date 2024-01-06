@@ -1,6 +1,6 @@
 import { LightningElement } from 'lwc';
 
-export default class LigtningExampleButtonBasic extends LightningElement {
+export default class LightningExampleButtonBasic extends LightningElement {
     clickedButtonLabel;
 
     handleClick(event) {
