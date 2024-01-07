@@ -1,0 +1,12 @@
+<template>
+    <lightning-card>
+        <div class="slds-m-around_small">
+            <lightning-checkbox-group name="Checkbox Group"
+                                    label="Checkbox Group"
+                                    options={options}
+                                    value={value}
+                                    onchange={handleChange}></lightning-checkbox-group>
+            <p>Selected Values are: {selectedValues}</p>
+        </div>
+    </lightning-card>
+</template>
