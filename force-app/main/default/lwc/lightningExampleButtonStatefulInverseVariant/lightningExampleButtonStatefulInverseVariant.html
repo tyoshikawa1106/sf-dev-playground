@@ -1,0 +1,19 @@
+<template>
+    <lightning-card>
+        <div class="slds-m-around_small">
+            <div class="backgroundInverse">
+                <lightning-button-stateful
+                    label-when-off="Follow"
+                    label-when-on="Following"
+                    label-when-hover="Unfollow"
+                    icon-name-when-off="utility:add"
+                    icon-name-when-on="utility:check"
+                    icon-name-when-hover="utility:close"
+                    variant="inverse"
+                    selected={isSelected}
+                    onclick={handleClick}>
+                </lightning-button-stateful>
+            </div>
+        </div>
+    </lightning-card>
+</template>
