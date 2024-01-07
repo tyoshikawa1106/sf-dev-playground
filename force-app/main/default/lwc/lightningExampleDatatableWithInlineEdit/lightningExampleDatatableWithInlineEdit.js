@@ -9,7 +9,7 @@ const columns = [
     { label: 'Balance', fieldName: 'amount', type: 'currency', editable: true },
 ];
 
-export default class LightningExampleDatatableWithInlineEdit extends LightningElement {
+export default class LightningExampleDataTableWithInlineEdit extends LightningElement {
     data = [];
     columns = columns;
     rowOffset = 0;
