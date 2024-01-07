@@ -1,0 +1,14 @@
+<template>
+    <lightning-card>
+        <div class="slds-m-around_small">
+            <lightning-button-stateful
+                label-when-off="Follow"
+                label-when-on="Following"
+                label-when-hover="Unfollow"
+                variant="brand"
+                selected={isSelected}
+                onclick={handleClick}>
+            </lightning-button-stateful>
+        </div>
+    </lightning-card>
+</template>
