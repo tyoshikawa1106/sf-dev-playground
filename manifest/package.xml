@@ -26,6 +26,7 @@
     </types>
     <types>
         <members>TrailblazersApps</members>
+        <members>LightningExampleApps</members>
         <name>CustomApplication</name>
     </types>
     <types>
@@ -54,6 +55,68 @@
         <members>LwcRecordForm</members>
         <members>DisplayContactsUsingImperative</members>
         <members>LaunchModal</members>
+        <members>ExampleAccordionBasic</members>
+        <members>ExampleAccordionConditional</members>
+        <members>ExampleAccordionMultiple</members>
+        <members>ExampleAccordionSectionBasic</members>
+        <members>ExampleAlert</members>
+        <members>ExampleAvatarBasic</members>
+        <members>ExampleAvatarSizes</members>
+        <members>ExampleAvatarVariant</members>
+        <members>ExampleAvatarInitials</members>
+        <members>ExampleAvatarIcons</members>
+        <members>ExampleBadgeBasic</members>
+        <members>ExampleBadgeWithIcon</members>
+        <members>ExampleBarcodeScanner</members>
+        <members>ExampleBreadcrumbs</members>
+        <members>ExampleButtonBasic</members>
+        <members>ExampleButtonDisabled</members>
+        <members>ExampleButtonWithIcon</members>
+        <members>ExampleButtonInverse</members>
+        <members>ExampleButtonOnclick</members>
+        <members>ExampleButtonAccesskey</members>
+        <members>ExampleButtonGroupBasic</members>
+        <members>ExampleButtonGroupDisabled</members>
+        <members>ExampleButtonGroupWithMenu</members>
+        <members>ExampleButtonGroupWithMenuDisabled</members>
+        <members>ExampleButtonIconBasic</members>
+        <members>ExampleButtonIconSizes</members>
+        <members>ExampleButtonIconInverse</members>
+        <members>ExampleButtonIconStatefulBasic</members>
+        <members>ExampleButtonIconStatefulVariants</members>
+        <members>ExampleButtonMenuBasic</members>
+        <members>ExampleButtonMenuWithIcon</members>
+        <members>ExampleButtonMenuVariants</members>
+        <members>ExampleButtonMenuOnselect</members>
+        <members>ExampleButtonStatefulBasic</members>
+        <members>ExampleButtonStatefulInverseVariant</members>
+        <members>ExampleButtonStatefulNoIcon</members>
+        <members>ExampleButtonStatefulInverseVariant</members>
+        <members>ExampleButtonStatefulTextAndIcon</members>
+        <members>ExampleCardBasic</members>
+        <members>ExampleCardNarrow</members>
+        <members>ExampleCardCustom</members>
+        <members>ExampleCarouselBasic</members>
+        <members>ExampleCarouselWithoutAutoScroll</members>
+        <members>ExampleCheckboxGroupBasic</members>
+        <members>ExampleCheckboxGroupRequired</members>
+        <members>ExampleCheckboxGroupDisabled</members>
+        <members>ExampleClickToDialBasic</members>
+        <members>ExampleComboboxBasic</members>
+        <members>ExampleComboboxDisabled</members>
+        <members>ExampleConfirm</members>
+        <members>ExampleDataTableBasic</members>
+        <members>ExampleDataTableWithRowNumbers</members>
+        <members>ExampleDataTableWithRowActions</members>
+        <members>ExampleDataTableWithInlineEdit</members>
+        <members>ExampleDataTableWithSorting</members>
+        <members>ExampleDualListboxSimple</members>
+        <members>ExampleDualListboxSelected</members>
+        <members>ExampleDualListboxRequired</members>
+        <members>ExampleDualListboxMinMax</members>
+        <members>ExampleDynamicIcon</members>
+        <members>ExampleEmpApi</members>
+        <members>ExampleFileUpload</members>
         <name>CustomTab</name>
     </types>
     <types>
