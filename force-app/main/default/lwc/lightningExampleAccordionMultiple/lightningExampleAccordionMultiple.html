@@ -1,7 +1,8 @@
 <template>
     <lightning-card>
-        <p>{activeSectionsMessage}</p>
-
+        <div class="slds-m-around_small">
+            <p>{activeSectionsMessage}</p>
+        </div>
         <lightning-accordion allow-multiple-sections-open onsectiontoggle={handleSectionToggle} active-section-name={activeSections}>
             <lightning-accordion-section name="A" label="Accordion Title A">
                 <p>This is the content area for section A.</p>

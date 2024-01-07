@@ -1,9 +1,9 @@
 <template>
     <lightning-card>
-        <p class="slds-text-heading_small">{activeSectionMessage}</p>
-        
-        <lightning-button onclick={handleToggleSectionD} label="Toggle Section D"></lightning-button>
-
+        <div class="slds-m-around_small">
+            <p class="slds-text-heading_small slds-m-bottom_x-small">{activeSectionMessage}</p>
+            <lightning-button onclick={handleToggleSectionD} label="Toggle Section D"></lightning-button>
+        </div>
         <lightning-accordion class="example-accordion" onsectiontoggle={handleToggleSection} active-section-name="B">
             <lightning-accordion-section name="A" label="Accordion Title A">
                 <p>This is the content area for section A.</p>
