@@ -74,6 +74,9 @@
     <tabs>ExampleDynamicIcon</tabs>
     <tabs>ExampleEmpApi</tabs>
     <tabs>ExampleFileUpload</tabs>
+    <tabs>ExampleFormattedAddressBasic</tabs>
+    <tabs>ExampleFormattedAddressLatitude</tabs>
+    <tabs>ExampleFormattedAddressCustomLocale</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Lightning_Example_UtilityBar</utilityBar>
 </CustomApplication>
