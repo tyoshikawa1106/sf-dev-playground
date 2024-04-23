@@ -7,12 +7,12 @@ Salesforce DX プロジェクトの学習用リポジトリ
 - [Link](#link)
 
 ## Requirements
-- Visual Studio Code 1.86.0 (Universal)
-- @salesforce/cli/2.26.10 darwin-arm64 node-v21.6.1
-- Homebrew 4.2.6
-- git version 2.43.0
-- node v21.6.1
-- npm 10.4.0
+- Visual Studio Code 1.88.1 (Universal)
+- @salesforce/cli/2.37.4 darwin-arm64 node-v21.7.3
+- Homebrew 4.2.19
+- git version 2.44.0
+- node v21.7.3
+- npm 10.5.0
 - openjdk 17.0.9 2023-10-17 LTS
 
 ## Usage
